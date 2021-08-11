@@ -1,0 +1,39 @@
+@charset "EUC-KR";
+
+/*레이아웃*/
+		* {margin: 0; padding:0; font-family:"굴림";}
+		header{height:100px; border: solid 1px red;}
+		.box{width: 1200px; margin: 0 auto; height:0 auto;}
+		#main_img{
+			height: 250px;
+			background-image: url("../img/main_img.png"); 
+			background-repeat: no-repeat;
+			background-position: top center;
+			margin-top: 20px;
+			}
+		#main_contents{width: 946px; height: 500px; float: right;}
+		#sub_menu{ width: 250px; height:500px; float: left; border: solid 1px red; }
+		footer{height: 200px; clear: both; border: solid 1px red;}
+	
+		/*공통*/
+		li{list-style-type: none;}
+		
+		/*상단 메뉴*/
+		#logo { float: left; margin:20px 0 0 20px; border: solid 1px red;}
+		#menu { float:right;}
+		#top_menu {text-align: right; margin-top: 20px;}
+		#main_menu{margin-top: 20px; font-family: 20px;}
+		#main_menu li{display: inline; margin-left: 80px;}
+		
+		/*메인*/
+		/*사이드바*/
+			#sub_menu h3{font-size: 18px; color: #5df0c0; padding: 15px; background-color: #516e7f;}
+			#sub_menu li{padding: 10px; border-bottom: dotted 1px #cccccc;}
+		/*메인내용*/
+			#main_contents h3{font-size: 23px; border-bottom: solid 1px #cccccc; padding-bottom:10px;}
+			#main_contents p{margin-top: 30px; line-height: 180%;}
+			#main_contents #figure{margin-top:30px; text-align:center;}
+			#main_contents li{padding:5px;}
+		/*푸터*/
+		#footer_logo{float:left; margin:50px 0 0 30px;}
+		#address{float:right; color: white; margin: 50px 30px 0 0;}	

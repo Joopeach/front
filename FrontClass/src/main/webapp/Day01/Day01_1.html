@@ -1,0 +1,79 @@
+<!DOCTYPE html><!-- 주석처리 -->
+<html> <!-- 문서 시작 -->
+<head> <!-- 문서 설정 -->
+<meta charset="EUC-KR"> <!-- 페이지 설정 -->
+<title>html 시작</title><!-- 페이지 제목 -->
+</head>
+<body> <!-- 페이지 내용 -->
+
+	<h1> HTML 제목1 </h1>
+	<h2> HTML 제목2 </h2>
+	<h3> HTML 제목3 </h3>
+	<h4> HTML 제목4 </h4>
+	<h5> HTML 제목5 </h5>
+	<h6> HTML 제목6 </h6>
+	<h7> HTML 제목7 </h7> <!-- 7은 안됌 -->
+	
+	<p> 웹 페이지의 문단 입니다 </p>
+	<h1> 고양이</h1>
+	<p> 고양이(학명: Felis Catus, 영어: Cat)는 식육목 고양이과에 속하는 포유류다. 들고양이(영어: Wild Cat)는 약 10만 년에서 7만년 전부터 존재했다.
+	길들여진 고양이의 기원은 약 1만년 전 중동 지역에서 스스로 숲속을 나와 사람들이 모여사는 마을에 정착하여 길들여진
+	아프리카들고양이(학명: Felis Lybica)로 추측된다.<br> <!-- br은 줄바꿈 -->
+	고양이는 인류로 부터 오랫동안 반려동물로 사랑받아 왔다.<br>
+	실례로 고대 이집트의 벽화에는 고양이를 새 사냥에 이용하는 그림이 있다.<p>
+	
+	&gt; &copy; &lt; <!-- > 저작권 < 이 세가지는 외울것 -->
+	
+	<br> 이미지 <br>
+	<img alt="사진설명" src="고양이1.jpg"> <!-- 현재 폴더 -->
+	x<img alt="사진설명" src="고양이2.jpg"> <!-- 현재페이지 -->
+	<br> 절대경로 <br>
+	<img alt="사진설명" src="C:\Users\82106\Desktop\JAVA\FRONT\src\main\webapp\image\고양이2.jpg">
+	<br> 상대경로 <br>
+	x1<img alt="사진설명" src="./고양이2.jpg"> <!-- 현재페이지X -->
+	x2<img alt="사진설명" src="../고양이2.jpg"> <!--  이전페잊도 X -->
+	x3<img alt="사진설명" src="../img/고양이2.jpg">
+	o4<img alt="사진설명" src="./img/고양이2.jpg">
+	x5<img alt="사진설명" src="/img/고양이2.jpg">
+	x6<img alt="사진설명" src="webapp/img/고양이2.jpg">
+	
+	
+	<br> 오디오 <br>
+	
+	<audio controls>
+		<source src ="./audio/오디오파일.mp3">
+	 </audio>
+	 
+	 <br> 비디오 <br>
+	 <video controls width="300" height="300" autoplay="autoplay">
+	 	<source src=".video/비디오파일.mp4">
+	 </video>
+	 
+	 <br> 목록 <br>
+	 <br> 순서없는 목록 [글머리 = 기호] <br>
+	 	  <ul>
+	 	  		<li> java </li> <!-- list item -->
+	 	  		<li> c언어 </li>
+	 	  		<li> python </li>
+	 	  		<li> spring </li>
+	 	  </ul>
+	 <br> 순서가 있는 목록 [글머리 = 순서] <br>
+	 	  <ol>
+	 	  		<li> java </li> <!-- list item -->
+	 	  		<li> c언어 </li>
+	 	  		<li> python </li>
+	 	  		<li> spring </li>
+	 	  </ol>
+	 	  
+	  <br> 하이퍼링크 <br>
+	  <a href="고양이1.jpg">고양이사진</a>  
+	  <a href="https://www.naver.com">네이버</a>
+	  <a href="Day01_2.html"> 다른페이지 </a>
+	  <br> 버튼형식 <br>
+	  <a href="Day01_2.html">
+	 	<img alt="" src="./img/로그인버튼.jpg">
+	 	</a>
+	  
+
+</body>
+</html><!-- 문서 끝 -->

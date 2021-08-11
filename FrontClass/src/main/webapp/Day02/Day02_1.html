@@ -1,0 +1,59 @@
+<!DOCTYPE html> <!-- 주석처리 -->
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<!-- 
+		<form> : 폼 양식
+			<input> : 입력상자
+				type="text"
+				type="password"
+				type="radio"
+				type="checkbox"
+				type="file"
+				type="submit"
+				type="button"
+				type="reset"
+				type="date"
+				type="time"
+				type="hidden"
+				type="email"
+						value="값"
+						autofocus
+						readonly
+						disabled
+						placeholder
+				<select> : 목록상자
+					<option>
+				<textarea> : 긴글텍스트			
+	
+	
+	 -->
+
+
+
+	<p> 텍스트 입력창
+	<form> <!-- 자동입력 사용 할 것 -->
+	 이름 : <input type="text">	<br>
+	 비밀번호 : <input type="password"> <br>
+	 이메일수신 : <input type="radio" name="email" checked="check"> 예 <!-- check를 해놓으면 먼저 선택이 되어있음 -->
+	 			<input type="radio" name="email"> 아니오 <br> <!-- 라디오버튼 쓰는 줄 씬빌더에서는 묶어야한다 했움 중복선택 불가 -->
+	 분야 : <input type="checkbox" name="item1"> 뉴스 <!-- 체크박스는 이름을 같이 설정해도 중복선택 가능 -->
+	 	   <input type="checkbox" name="item1"> 드라마
+	 	   <input type="checkbox" name="item1"> 스포츠
+	 	   <input type="checkbox" name="item1"> 엔터 <br>
+	 첨부파일 : <input type="file">	  <br>
+	 버튼 : <input type="submit" value="등록">
+	 	   <input type="button" value="확인">
+	 	   <input type="reset" value="취소"> <br>
+	 버튼2 : <button type="submit"> 등록</button>	   <!-- input을 보통 더 쓰지만 button이라 해도 됌 -->
+	 
+	 
+	 			
+	</form>
+
+</body>
+</html>
